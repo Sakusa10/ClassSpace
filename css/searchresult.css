@@ -12,26 +12,18 @@ html, body {
     margin-top: -292px;
 }
 
-#header2 {
-    margin-top: 441px;
-    background: #fff;
-        border-radius: 3px;
-        border: 1px solid #ccc;
+#searchbox {
+    position: fixed;
+    top: 50%;
+    margin-top: -215px;
+    margin-left: -10px;
 }
 
-#h2 {
-    margin-left: 10px;
-}
-
-#header3 {
-    margin-top: 16px;
-    background: #fff;
-        border-radius: 3px;
-        border: 1px solid #ccc;
-}
-
-#h3 {
-    margin-left: 10px;
+#options {
+    position: fixed;
+    top: 50%;
+    margin-top: -175px;
+    margin-left: 0px;
 }
 
 input {
@@ -59,9 +51,9 @@ input[type="submit"] {
 #container {
     position: fixed;
     width: 958px;
-    height: 320.5px;
+    height: 452px;
     top: 50%;
-    margin-top: -215px;
+    margin-top: -108px;
     overflow: auto;
 }
 

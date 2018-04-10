@@ -100,9 +100,8 @@ input[type=submit] {
     height: 35px;
 }
 
-#forgot {
+#existing {
     margin-top: -4px;
     margin-left: 18px;
-    font-family: Helvetica;
     font-size: 14px;
 }

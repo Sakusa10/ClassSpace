@@ -40,8 +40,6 @@ input {
 }
 
 input[type="text"] {
-    font-family: Helvetica;
-    font-size: 14px;
     color: #777;
     padding-left: 10px;
     margin: 10px;

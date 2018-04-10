@@ -23,7 +23,6 @@ html, body {
     position: fixed;
     top: 50%;
     margin-top: -175px;
-    margin-left: 0px;
 }
 
 input {

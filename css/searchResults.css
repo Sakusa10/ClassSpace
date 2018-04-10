@@ -7,22 +7,22 @@ html, body {
 }
 
 #header {
-    position: fixed;
-    top: 50%;
-    margin-top: -292px;
+	position: fixed;
+	top: 50%;
+	margin-top: -292px;
 }
 
 #searchbox {
-    position: fixed;
-    top: 50%;
-    margin-top: -215px;
-    margin-left: -10px;
+	position: fixed;
+	top: 50%;
+	margin-top: -215px;
+	margin-left: -10px;
 }
 
 #options {
-    position: fixed;
-    top: 50%;
-    margin-top: -175px;
+	position: fixed;
+	top: 50%;
+	margin-top: -175px;
 }
 
 input {

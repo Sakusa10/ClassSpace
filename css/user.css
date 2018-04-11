@@ -61,6 +61,10 @@ h3 {
     text-align: center;
 }
 
+h3[name="title"] {
+    color: #fff;
+}
+
 input[name="b1"] {
     margin-top: 18.5px;
     margin-left: 10px;
@@ -76,6 +80,47 @@ input[name="b2"] {
 }
 
 input[name="b3"] {
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 130px;
+    height: 40px;
+}
+
+#container3 {
+    position: fixed;
+    width: 150px;
+    height: 117.5px;
+    top: 50%;
+    left: 5%;
+    margin-top: -215px;
+    margin-left: 4px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+#container3a {
+    position: fixed;
+    width: 150px;
+    height: 57.5px;
+    top: 50%;
+    left: 5%;
+    margin-top: -214px;
+    margin-left: 5px;
+    background: #a9a9a9;
+}
+
+#container3b {
+    position: fixed;
+    width: 150px;
+    height: 60px;
+    top: 50%;
+    left: 5%;
+    margin-top: -156.5px;
+    margin-left: 5px;
+    background: #fff;
+}
+
+input[name="b4"] {
     margin-top: 10px;
     margin-left: 10px;
     width: 130px;

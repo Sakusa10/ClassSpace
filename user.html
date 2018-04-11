@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Home Page</title>
+    <title>User</title>
     
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/user.css">
@@ -29,9 +29,12 @@
             <p name="p1">Active since: 2018-04-09 20:49:48</p>
             <p name="p2">About me:</p>
         </div>
+        
+        <!-- User looking at their own profile -->
+        
         <div id="container2">
             <h3>Account Settings</h3>
-            <form action="">
+            <form action="editPage.html">
                 <input type="submit" name="b1" value="Edit Page">
             </form>
             <form action="changePass.html">
@@ -41,6 +44,35 @@
                 <input type="submit" name="b3" value="Delete Account">
             </form>
         </div>
+        
+        <!-- User looking at another user's profile
+        
+        <div id="container3">
+            <div id="container3a">
+                <h3 name="title">Contact User</h3>
+            </div>
+            <div id="container3b">
+                <form>
+                    <input type="submit" name="b4" value="Send Message">
+                </form>
+            </div>
+        </div> -->
+        
+        <!-- Moderator looking at another user's profile
+        
+        <div id="container2">
+            <h3>Moderator Settings</h3>
+            <form>
+                <input type="submit" name="b1" value="Send Message">
+            </form>
+            <form>
+                <input type="submit" name="b2" value="Suspend">
+            </form>
+            <form action="deactivate.html">
+                <input type="submit" name="b3" value="Deactivate">
+            </form>
+        </div> -->
+        
         <div id="lower">
         </div>
     </main>

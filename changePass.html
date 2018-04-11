@@ -26,7 +26,7 @@
         <h1>Change Password</h1>
         </div>
         <div id="container">
-            <form>
+            <form name="chng">
                 <label for="op">Old Password:</label>
                 <input type="text" id="op">
                 <label for="np">New Password:</label>
@@ -34,8 +34,20 @@
                 <label for="cp">Confirm New Password:</label>
                 <input type="password" id="cp">
                 <div id="lower">
-                    <input type="submit" value="Change Password">
+                    <input type="submit" name="change" value="Change Password">
                 </div>
+            </form>
+        </div>
+        <div id="container2">
+            <h3>Account Settings</h3>
+            <form action="user.html">
+                <input type="submit" name="b1" value="Go Back">
+            </form>
+            <form action="changePass.html">
+                <input type="submit" name="b2" value="Change Password">
+            </form>
+            <form action="deleteAccount.html">
+                <input type="submit" name="b3" value="Delete Account">
             </form>
         </div>
     </main>

@@ -3,7 +3,7 @@
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>Delete Account</title>
+    <title>Deactivate Account</title>
     
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/deleteAccount.css">
@@ -23,29 +23,29 @@
     
     <main>
         <div id="header">
-        <h1>Delete Account</h1>
+        <h1>Deactivate Account</h1>
         </div>
         <div id="container">
             <form name="dele">
                 <label for="p">Enter your password:</label>
                 <input type="text" id="p">
-                <label for="d">Please type 'DELETE' (Case sensitive)</label>
+                <label for="d">Please type 'DEACTIVATE' (Case sensitive)</label>
                 <input type="password" id="d">
                 <div id="lower">
-                    <input type="submit" name="delete" value="Delete Account">
+                    <input type="submit" name="delete" value="Deactivate Account">
                 </div>
             </form>
         </div>
         <div id="container2">
-            <h3>Account Settings</h3>
+            <h3>Moderator Settings</h3>
             <form action="user.html">
                 <input type="submit" name="b1" value="Go Back">
             </form>
-            <form action="changePass.html">
-                <input type="submit" name="b2" value="Change Password">
+            <form>
+                <input type="submit" name="b2" value="Suspend">
             </form>
-            <form action="deleteAccount.html">
-                <input type="submit" name="b3" value="Delete Account">
+            <form action="deactivate.html">
+                <input type="submit" name="b3" value="Deactivate">
             </form>
         </div>
     </main>
